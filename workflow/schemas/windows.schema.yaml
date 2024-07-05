@@ -1,0 +1,21 @@
+$schema: "http://json-schema.org/draft-04/schema#"
+description: row of the windows.csv, representing a set of windows of the genome
+type: object
+properties:
+  chr:
+    type: string
+    description: scaffold/chromosome name for the window
+  start:
+    type: integer  
+    description: start position of the window
+  end:
+    type: integer
+    description: end position of the window
+  name:
+    type: string
+    description: unique identifier for the window for naming purposes.
+required:
+  - chr
+  - start
+  - end
+  - name
