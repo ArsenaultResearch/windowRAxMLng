@@ -1,0 +1,13 @@
+$schema: "http://json-schema.org/draft-04/schema#"
+description: row of the samples.csv, representing the phenotypes of the samples in the vcf
+type: object
+properties:
+  Sample_ID:
+    type: string
+    description: scaffold/chromosome name for the window
+  Caste:
+    type: string
+    description:characteristic of the sample
+required:
+  - Sample_ID
+  - Caste

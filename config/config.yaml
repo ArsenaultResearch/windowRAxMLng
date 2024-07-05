@@ -1,0 +1,13 @@
+##############################
+# Variables you need to change
+##############################
+
+# workdir: "/path/to/workdir" # path to the working directory
+# All paths in the snakefile are interpreted relative to the directory snakemake is executed in. This behaviour can be overridden by specifying a workdir in the snakefile:
+
+windows: config/windows_test.csv ## csv file of all windows to analyze with columns: chr, start, end, and name
+samples: config/samples.csv ## csv file of all samples names in vcf with their phenotype
+
+snps: data/Lerg_assemblyV1_E_LergI.thin20k.vcf.gz # path to the vcf of variants you want counts from
+thin: 1000 # how many bp to thin the genome by
+threads: 4 # how many threads to use for parallel processes

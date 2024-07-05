@@ -1,10 +1,10 @@
-# Snakemake workflow: `<name>`
+# Snakemake workflow: `windowRAxMLng`
 
 [![Snakemake](https://img.shields.io/badge/snakemake-≥6.3.0-brightgreen.svg)](https://snakemake.github.io)
 [![GitHub actions status](https://github.com/<owner>/<repo>/workflows/Tests/badge.svg?branch=main)](https://github.com/<owner>/<repo>/actions?query=branch%3Amain+workflow%3ATests)
 
 
-A Snakemake workflow for `<description>`
+A Snakemake workflow for creating a series of phylogenies for a set of windows throughout a genome and computing statistics for each one to identify large-scale abberant patterns. 
 
 
 ## Usage

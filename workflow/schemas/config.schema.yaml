@@ -1,0 +1,25 @@
+$schema: "http://json-schema.org/draft-06/schema#"
+
+description: snakemake configuration file
+
+type: object
+
+properties:
+  windows:
+    type: string
+
+  snps:
+    type: string
+
+  thin:
+    type: integer
+
+  threads:
+    type: integer
+
+
+required:
+  - windows
+  - snps
+  - thin
+  - threads
